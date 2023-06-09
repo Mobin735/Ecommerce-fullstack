@@ -1,10 +1,10 @@
 import Button from "@/components/Button";
 import { CartContext } from "@/components/CartContext";
 import Center from "@/components/Center";
+import Footer from "@/components/Footer";
 import Header from "@/components/Header";
 import ProductImages from "@/components/ProductImages";
 import Title from "@/components/Title";
-import WhiteBox from "@/components/WhiteBox";
 import CartIcon from "@/components/icons/Cart";
 import { mongooseConnect } from "@/lib/mongoose";
 import { Product } from "@/models/Product";
@@ -53,6 +53,7 @@ export default function ProductPage({product}) {
                     </div>
                 </ColWrapper>
             </Center>
+            <Footer />
         </>
     )
 };
