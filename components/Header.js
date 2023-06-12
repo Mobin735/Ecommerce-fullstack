@@ -38,6 +38,7 @@ const NavLink = styled(Link)`
 
 
 const StyleNav = styled.nav`
+   
    margin-left: ${props => (props.mobileNavActive ? "0%" : "150%")};
    transition: margin-left 0.5s ease-in-out;
    ${NavLink} {
@@ -48,7 +49,7 @@ const StyleNav = styled.nav`
    ${NavLink}:hover {
     color: white;
    }
-
+   
   display: flex;
   flex-direction: column;
   align-items: center;
