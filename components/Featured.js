@@ -117,7 +117,7 @@ export default function Featured({product}) {
                         </div>
                     </Column>
                     <Column>
-                        <img src="https://drive.google.com/uc?export=download&id=1VjImSmlxN9IFX7gxtHDWWN8uhGFV0Xbs" alt="" />
+                        <img src="https://lh3.google.com/u/0/d/1VjImSmlxN9IFX7gxtHDWWN8uhGFV0Xbs" alt="" />
                     </Column>
                 </ColumnsWrapper>
 
